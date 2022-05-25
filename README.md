@@ -4,6 +4,7 @@ The bot creates natural questions from a given a sentence or paragrap.
 
 ## Requirements
 [Torch7](https://github.com/torch/torch7)
+
 [tds](https://github.com/torch/tds)
 
 ## Paragraph-level model
@@ -45,7 +46,7 @@ You can adjust the rnn size for paragraph encoder and sentence encoder by changi
 
 	th translate.lua -model model/<model file name> -config config-trans
 
-# Sample output
+## Sample output
 Sentence:
 Oxygen is used in cellular respiration and released by photosynthesis, which uses the energy of sunlight to produce oxygen from water.
 
