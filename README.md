@@ -47,15 +47,19 @@ You can adjust the rnn size for paragraph encoder and sentence encoder by changi
 	th translate.lua -model model/<model file name> -config config-trans
 
 ## Sample output
-Sentence:
+**Sentence:**
+
 Oxygen is used in cellular respiration and released by photosynthesis, which uses the energy of sunlight to produce oxygen from water.
 
-Questions:
+**Questions:**
+
 – What life process produces oxygen in the
 presence of light?
 photosynthesis
+
 – Photosynthesis uses which energy to form
 oxygen from water?
 sunlight
+
 – From what does photosynthesis get oxygen?
 water
